@@ -12,7 +12,6 @@ function App() {
   const handleClick=(newMovie)=>{
     setData([...data,newMovie])
   }
-  console.log(movieSearchRating)
   return (
     <div>
       <NavBar handleClick={handleClick} setMovieSearch={setMovieSearch} setMovieSearchRating={setMovieSearchRating}/>
